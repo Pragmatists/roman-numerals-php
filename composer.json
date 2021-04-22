@@ -1,0 +1,16 @@
+{
+    "name": "pragmatists/phpunit-sample",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit --testdox"
+    }
+}
